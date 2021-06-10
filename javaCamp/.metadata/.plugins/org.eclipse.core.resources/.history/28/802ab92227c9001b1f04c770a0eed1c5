@@ -1,0 +1,25 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//camelCase
+		//Don't repeat yourself
+		String doSomethingButton = "Internet Filiaal";
+		double dollarYesterday = 8.15; 
+		double dollarToday = 8.10;
+		int maturity = 36;
+		boolean didItFall = false;
+		
+		System.out.println(doSomethingButton);
+		
+		if(dollarToday < dollarYesterday) {
+			System.out.println("Dollar fell");
+		}else {
+			System.out.println("Dollar rose");
+		}
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//camelCase
+		//Don't repeat yourself
+		String doSomethingButton = "Internet Filiaal";
+		double dollarYesterday = 8.15; 
+		double dollarToday = 8.18;
+		int maturity = 36;
+		boolean didItFall = false;
+		
+		System.out.println(doSomethingButton);
+
+	}
+
+}

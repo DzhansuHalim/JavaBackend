@@ -1,0 +1,28 @@
+package oopIntro;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Product product1 = new Product();
+		product1.id = 1;
+		product1.name = "Lenovo";
+		product1.unitPrice = 1500;
+		product1.detail = "16 GB Ram";
+		
+		Product product2 = new Product();
+		product2.id = 2;
+		product2.name = "HP 5";
+		product2.unitPrice = 1500;
+		product2.detail = "8 GB Ram";
+		
+		Product[] products = {product1, product2};
+		
+		for (Product product : products) {
+			
+			System.out.println(product.name);
+		}
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+package inheritance;
+
+public class CustomerManager {
+	
+	//SOLID- Open Closed Principle
+	public void add(Customer customer) {
+		System.out.println(customer.customerNumber + " saved. ");
+	}
+}
