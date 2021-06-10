@@ -1,0 +1,10 @@
+package interfaces;
+
+public class Utils {
+	public void RunLogger(Logger[] loggers, String message) {
+		for (Logger logger : loggers) {
+			logger.log(message);
+		}
+
+	}
+}

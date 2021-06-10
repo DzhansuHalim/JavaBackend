@@ -1,0 +1,22 @@
+package interfaces;
+
+public class CustomerManager {
+	
+	private Logger logger;
+	
+	//CRUD
+	public void add(Customer customer) {
+		System.out.println("Customer is added: " + customer.getFirstName());
+		
+		DatabaseLogger databaseLogger = new DatabaseLogger();
+		databaseLogger.log(customer.getFirstName() + " logged in the database");
+	}
+	
+	public void delete(Customer customer) {
+		System.out.println("Customer is deleted: " + customer.getFirstName());
+		
+		DatabaseLogger databaseLogger = new DatabaseLogger();
+		databaseLogger.log(customer.getFirstName() + " logged into the database");
+	}
+	
+}

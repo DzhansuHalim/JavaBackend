@@ -1,0 +1,23 @@
+package interfaces;
+
+public class CustomerManager {
+	
+	private Logger logger;
+	
+	public CustomerManager(Logger logger) {
+		super();
+		this.logger = logger;
+	}
+
+	//CRUD
+	public void add(Customer customer) {
+		System.out.println("Customer is added: " + customer.getFirstName());
+
+	}
+	
+	public void delete(Customer customer) {
+		System.out.println("Customer is deleted: " + customer.getFirstName());
+
+	}
+	
+}
