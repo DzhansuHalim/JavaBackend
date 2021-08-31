@@ -1,4 +1,4 @@
-# Java and React
+# Java
 1. <b>Basic expressions</b>
     <ul>     
       <li>Variables</li>
